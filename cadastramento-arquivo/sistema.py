@@ -25,6 +25,7 @@ def fazerCadastro():
     print(f'Novo registro de {nome} adicionado.')
     sleep(1.5)
 
+
 while True:
     print('-' * 40)
     print('MENU PRINCIPAL'.center(40))
