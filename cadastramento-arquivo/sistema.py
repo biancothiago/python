@@ -9,6 +9,7 @@ def mostrarCadastro():
         dados = linha.split(';')
         dados[1] = dados[1].replace('\n', '')
         print(f'{dados[0]:<25}{dados[1]} anos')
+    arq.close()
     sleep(1.5)
 
 def fazerCadastro():
