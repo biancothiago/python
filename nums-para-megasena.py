@@ -11,8 +11,8 @@ for i in range(0, total):
                 break
             else:
                 continue
-    print(f'* {i+1}º JOGO: ', end='')
+    print(f'* {i+1:>2}º JOGO: ', end='')
     for n in aposta:
-        print(n, end=' ')
+        print(f'{n:<2}', end=' ')
     print()
     aposta.clear()
